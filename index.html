@@ -1,0 +1,24 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Average Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Average Calculator Microservice</h1>
+    <label for="type">Enter Number ID (p/f/e/r):</label>
+    <input type="text" id="type" maxlength="1">
+    <button onclick="fetchNumbers()">Get Average</button>
+
+    <div class="output">
+      <h3>Response</h3>
+      <pre id="response"></pre>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
